@@ -3,12 +3,23 @@ const assert = require('assert');
 main();
 
 async function main() {
-	// console.log('hello there');
-	// console.log('Greetings');
+	try {
+		console.log('testing add');
+		assert(add(1, 2) == 3);
+	} catch (e) {
+		console.log(e);
+	}
 
 	try {
-		console.log('testing sum');
-		assert(add(1, 2) == 4);
+		console.log('testing subtract');
+		assert(subtract(5, 4) == 1);
+	} catch (e) {
+		console.log(e);
+	}
+
+	try {
+		console.log('testing power');
+		assert(power(2, 3) == 5);
 	} catch (e) {
 		console.log(e);
 	}
