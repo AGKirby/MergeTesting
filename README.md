@@ -1,7 +1,21 @@
+# MergeTesting
+
+## Git Commands
+
+- Initialize folder to this repo
+
+```cmd
 git remote add origin https://github.com/AGKirby/MergeTesting.git
-Adam used to be here
+```
 
-Hello world
+- Undo the merge
 
-Adam wasn't here today
-Alex was here
+```cmd
+git merge --abort
+```
+
+## Run program
+
+```cmd
+node index.js
+```

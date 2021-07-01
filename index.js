@@ -3,6 +3,9 @@ const assert = require('assert');
 main();
 
 async function main() {
+	console.log('hello there');
+	console.log('Greetings');
+
 	try {
 		console.log('testing add');
 		assert(add(1, 2) == 3);
@@ -20,6 +23,34 @@ async function main() {
 	try {
 		console.log('testing power');
 		assert(power(2, 3) == 5);
+	} catch (e) {
+		console.log(e);
+	}
+
+	try {
+		console.log('testing multiply');
+		assert(multiply(3, 3) == 9);
+	} catch (e) {
+		console.log(e);
+	}
+
+	try {
+		console.log('testing divide');
+		assert(divide(4, 2) == 2);
+	} catch (e) {
+		console.log(e);
+	}
+
+	try {
+		console.log('testing divide by zero');
+		assert(divide(1, 0) == 0);
+	} catch (e) {
+		console.log(e);
+	}
+
+	try {
+		console.log('testing square root');
+		assert(squareRoot(4) == 2);
 	} catch (e) {
 		console.log(e);
 	}
