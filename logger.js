@@ -1,3 +1,3 @@
-exports.Info = (msg) => {
-	console.log(`${new Date()} - INFO: ${msg}`);
-};
+function greet() {
+	return "Hello there"
+}

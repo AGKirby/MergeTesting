@@ -8,4 +8,6 @@ async function main() {
 
 	logger.Info('problem here');
 	logger.Info("I don't know about this");
+
+	console.log(logger.greet());
 }
