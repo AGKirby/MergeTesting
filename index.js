@@ -5,4 +5,7 @@ main();
 
 async function main() {
 	logger.Info('hello there');
+
+	logger.Info('problem here');
+	logger.Info("I don't know about this");
 }
