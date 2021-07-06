@@ -4,8 +4,15 @@ exports.Info = (msg) => {
 
 exports.Warn = (msg) => {
 	console.log(`${new Date()} - WARN: ${msg}`);
+}
+exports.greet = () => {
+	return 'Hello there';
 };
 
-exports.Error = (msg) => {
-	console.log(`${new Date()} - ERROR: ${msg}`);
+exports.adam = () => {
+	console.log('Adam is the coolest');
 };
+
+exports.alex = () => {
+	console.log("Alex is the weirdest");
+}
