@@ -12,8 +12,6 @@ async function main() {
 	console.log(logger.greet());
 
 	logger.adam();
-	logger.Info('asdf');
-	logger.Warn('afewa');
 
-	logger.Error('asdf');
+	logger.alex();
 }
