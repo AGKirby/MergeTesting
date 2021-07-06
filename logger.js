@@ -5,3 +5,7 @@ exports.Info = (msg) => {
 exports.greet = () => {
 	return 'Hello there';
 };
+
+exports.adam = () => {
+	console.log('Adam is the coolest');
+};

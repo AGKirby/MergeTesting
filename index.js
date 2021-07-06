@@ -10,4 +10,6 @@ async function main() {
 	logger.Info("I don't know about this");
 
 	console.log(logger.greet());
+
+	logger.adam();
 }
