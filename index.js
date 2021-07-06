@@ -6,4 +6,6 @@ main();
 async function main() {
 	logger.Info('asdf');
 	logger.Warn('afewa');
+
+	logger.Error('asdf');
 }
