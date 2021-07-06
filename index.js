@@ -4,5 +4,5 @@ const logger = require('./logger.js');
 main();
 
 async function main() {
-	logger.Info('hello there');
+	console.log(logger.greet());
 }
