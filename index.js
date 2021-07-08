@@ -15,8 +15,13 @@ async function main() {
 async function program() {
 	console.log("Hello World!");
 	console.log("2 + 2 = " + add(2,2));
+	console.log("4 - 3 = " + subtract(4,3));
 }
 
 function add(a, b) {
 	return a + b;
+}
+
+function subtract(a, b){
+	return a - b;
 }
