@@ -9,3 +9,7 @@ exports.warn = (msg) => {
 exports.error = (msg) => {
 	console.log(`${new Date()} - ERROR: ${msg}`);
 };
+
+exports.debug = (msg) => {
+	console.log(`${new Date()} - DEBUG: ${msg}`);
+};

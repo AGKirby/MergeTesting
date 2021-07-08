@@ -13,9 +13,9 @@ async function main() {
 }
 
 async function program() {
-	console.log("Hello World!");
-	console.log("2 + 2 = " + add(2,2));
-	console.log("4 - 3 = " + subtract(4,3));
+	logger.debug("Hello World!");
+	logger.debug("2 + 2 = " + add(2,2));
+	logger.debug("4 - 3 = " + subtract(4,3));
 }
 
 function add(a, b) {
