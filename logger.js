@@ -1,18 +1,11 @@
-exports.Info = (msg) => {
+exports.info = (msg) => {
 	console.log(`${new Date()} - INFO: ${msg}`);
 };
 
-exports.Warn = (msg) => {
+exports.warn = (msg) => {
 	console.log(`${new Date()} - WARN: ${msg}`);
-}
-exports.greet = () => {
-	return 'Hello there';
 };
 
-exports.adam = () => {
-	console.log('Adam is the coolest');
+exports.error = (msg) => {
+	console.log(`${new Date()} - ERROR: ${msg}`);
 };
-
-exports.alex = () => {
-	console.log("Alex is the weirdest");
-}

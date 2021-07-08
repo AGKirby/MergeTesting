@@ -4,16 +4,12 @@ const logger = require('./logger.js');
 main();
 
 async function main() {
-	logger.Info('hello there');
+	const startTime = new Date();
 
-	logger.Info('problem here');
-	logger.Info("I don't know about this");
-	logger.Info('asdf');
-	logger.Warn('afewa');
+	await program();
 
-	console.log(logger.greet());
-
-	logger.adam();
-
-	logger.alex();
+	const endTime = new Date() - startTime;
+	logger.info(`Execution time: ${endTime} ms`);
 }
+
+async function program() {}
