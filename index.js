@@ -1,5 +1,5 @@
 const assert = require('assert');
-const logger = require('./logger.js');
+const logger = require('./Logger/logger.js');
 
 main();
 
