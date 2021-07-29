@@ -14,6 +14,7 @@ async function main() {
 
 async function program() {
 	logger.debug('Hello World!');
+	logger.debug('This is Adam!');
 	logger.debug('2 + 2 = ' + add(2, 2));
 	logger.debug('4 - 3 = ' + subtract(4, 3));
 }
