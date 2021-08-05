@@ -7,6 +7,7 @@ async function main() {
     const startTime = new Date();
 
     await program();
+    console.log( "Hello " + 'World!')
 
     const endTime = new Date() - startTime;
     logger.info(`Execution time: ${endTime} ms`);
