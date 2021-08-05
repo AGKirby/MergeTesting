@@ -26,8 +26,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
 
-      - run: npm ci
-
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Super-Linter
         uses: github/super-linter@v4.5.1
         env:
@@ -35,4 +37,5 @@ jobs:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - run: npm ci
       - run: npm test
