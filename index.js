@@ -13,7 +13,7 @@ async function main() {
 }
 
 async function program() {
-	logger.info('Hello World!');
+	logger.info('Hello there!');
 	logger.info(`2 + 2 = ${add(2, 2)}`);
 	logger.info(`4 - 3 = ${subtract(4, 3)}`);
 }
