@@ -4,24 +4,24 @@ const logger = require('./logger');
 main();
 
 async function main() {
-	const startTime = new Date();
+    const startTime = new Date();
 
-	await program();
+    await program();
 
-	const endTime = new Date() - startTime;
-	logger.info(`Execution time: ${endTime} ms`);
+    const endTime = new Date() - startTime;
+    logger.info(`Execution time: ${endTime} ms`);
 }
 
 async function program() {
-	logger.info('Hello there!');
-	logger.info(`2 + 2 = ${add(2, 2)}`);
-	logger.info(`4 - 3 = ${subtract(4, 3)}`);
+    logger.info('Hello there!');
+    logger.info(`2 + 2 = ${add(2, 2)}`);
+    logger.info(`4 - 3 = ${subtract(4, 3)}`);
 }
 
 function add(a, b) {
-	return a + b;
+    return a + b;
 }
 
 function subtract(a, b) {
-	return a - b;
+    return a - b;
 }
